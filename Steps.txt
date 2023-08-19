@@ -1,0 +1,11 @@
+=================== 1.Creating Project ============
+1.laravel new example-app
+2.Change db name in .env
+
+=================== 2. User and Admin =============
+1.composer require laravel/jetstream
+2.php artisan jetstream:install livewire
+3.npm install
+4.npm run build
+5.Change migratiion values in migration file
+6.php artisan migrate
